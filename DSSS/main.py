@@ -51,4 +51,4 @@ samples = samples - np.mean(samples) #Remove DC-Offset
 
 adquiredSatellites = adquisition.adquire(inputSamples= samples, SamplingFrequency= SamplingRate, DopplerRange= DopplerRange, DopperlBinNumber= DopplerBins)
 
-#Now will come the fun part: Tracking and Symbol Recovery, I've done it in embeded systems using 'Doble Buffering' with a DMA (Direct Memory Acces) but in Python I gess I'll use MultiThreading at some point
+#Now will come the fun part: Tracking and Symbol Recovery, I've done it in embeded systems using 'Double Buffering' with a DMA (Direct Memory Acces) but in Python I guess I'll use MultiThreading at some point
