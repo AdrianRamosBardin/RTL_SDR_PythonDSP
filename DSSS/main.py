@@ -26,7 +26,7 @@ print(f'Sample Lenght = {SampleLength} [samples]')
 
 if DEBUG:
     print('Reading file...')
-    IQ_data = pd.read_csv('C:/Users/Usuario/Desktop/Proyectos/RTL_SDR/DSSS/4.092_14_SM.csv')
+    IQ_data = pd.read_csv('4.092_14_SM.csv')
     I_data = IQ_data['I']
     Q_data = IQ_data['Q']
 
