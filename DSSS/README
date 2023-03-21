@@ -1,0 +1,2 @@
+This is a small script I did some time ago to adquire GNSS signals, I wanted to implement Real-time plotting while the traking loops where running. Another idea that was in my mind with this was to generate the GNSS (GPS L1 C/A) signals and then interface someking of TX SDR for simulation of a embeded verision I've been working.
+That second part seems really interesting and not really that complicated, the typical cost of a GNSS Simulator is huge. The performance maybe garbage but could be useful to have
